@@ -1,0 +1,24 @@
+.todo-flex {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #000;
+
+   img {
+      width: 24px;
+      height: 24px;
+      margin-left: auto;
+      margin-right: 10px;
+      cursor: pointer;
+   }
+}
+
+.todo-text {
+   font-size: 20px;
+   padding: 10px 10px;
+   width: 100%;
+   cursor: pointer;
+}
+
+.todo-done {
+   opacity: 25%;
+}

@@ -1,0 +1,26 @@
+.todo {
+   &__content {
+      &-title {
+         margin-bottom: 30px;
+      }
+      &-edit {
+         margin-top: 30px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+
+         button {
+            &:nth-child(2) {
+               margin-left: -700px;
+            }
+         }
+      }
+      &-todo {
+         border: 2px solid #000000;
+         border-radius: 5px;
+         margin-top: 50px;
+         border-bottom: none;
+         transition: 0.5s;
+      }
+   }
+}

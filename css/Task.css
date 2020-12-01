@@ -1,0 +1,28 @@
+.todo-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.todo-flex img {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo-text {
+  font-size: 20px;
+  padding: 10px 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.todo-done {
+  opacity: 25%;
+}
